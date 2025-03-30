@@ -72,6 +72,8 @@
 &mt LEFT_SHIFT LANGUAGE_2  &kp Z      &kp X                &kp C                   &kp V        &kp B                       &kp SEMICOLON  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &lt_to_layer_0 3 LCTRL     &kp LCTRL  &mt LEFT_ALT ESCAPE  &lt_to_layer_0 1 SPACE  &lt 2 SPACE  &lt_to_layer_0 5 SPACE      &kp BACKSPACE  &kp ENTER                             &mt LEFT_COMMAND LANGUAGE_1
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         FUNCTION {
