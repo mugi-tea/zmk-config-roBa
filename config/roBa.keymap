@@ -65,8 +65,8 @@
             bindings = <
 &kp TAB           &trans  &trans  &trans  &trans                      &trans    &trans    &trans    &kp ESCAPE  &bt BT_SEL 0
 &kp LEFT_COMMAND  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5    &bt BT_SEL 1
-&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans    &trans      &bt BT_SEL 2
-&trans            &trans  &trans  &trans  &trans  &trans      &trans  &trans                                    &bt BT_SEL 3
+&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans    &trans      &trans
+&trans            &trans  &trans  &trans  &trans  &trans      &trans  &trans                                    &trans
             >;
         };
 
